@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+print("Programa Criado por Leonardo!")
+from time import sleep 
+ sleep(5)
 from http import client
 import socket
 ip = input('===>Digite o endereço ALVO: ')
